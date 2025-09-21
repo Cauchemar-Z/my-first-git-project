@@ -1,0 +1,57 @@
+# macOS系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 用户配置文件备份
+.zshrc.bak.*
+.zprofile.bak.*
+.git_backup_*
+
+# 缓存和临时文件
+.cache/
+.nvm/
+.pyenv/
+.swiftpm/
+.zsh_sessions/
+.zcompdump*
+
+# 应用程序缓存
+.cursor/
+.codex/
+.config/
+
+# 备份文件
+config-backups/
+mac-setup-backups/
+
+# 日志文件
+*.log
+*.err
+
+# 临时脚本
+*.sh
+compose*.yaml
+jsconfig.json
+
+# 文档文件
+*.md
+
+# 项目相关
+market-research-vn/
+vn-ecom-auto/
+
+# 系统文件
+.CFUserTextEncoding
+.cursorignore
+.editorconfig
+.fzf.zsh
+.gitignore_global
+.viminfo
+
+# 本地安装
+.local/
