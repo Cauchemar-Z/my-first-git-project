@@ -1,0 +1,88 @@
+{
+  "name": "my-first-git-project",
+  "version": "1.0.0",
+  "description": "一个现代化的 Node.js/前端项目模板，针对ARM64架构优化",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js",
+    "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "clean": "rm -rf dist node_modules/.vite",
+    "postinstall": "echo '✅ ARM64架构依赖安装完成'"
+  },
+  "keywords": [
+    "nodejs",
+    "frontend",
+    "arm64",
+    "apple-silicon",
+    "vite",
+    "typescript",
+    "modern-web"
+  ],
+  "author": {
+    "name": "Cauchemar-Z",
+    "email": "303915601@qq.com",
+    "url": "https://github.com/Cauchemar-Z"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cauchemar-Z/my-first-git-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cauchemar-Z/my-first-git-project/issues"
+  },
+  "homepage": "https://my-first-git-project.pages.dev",
+  "dependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "express": "^4.18.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "arm64",
+    "x64"
+  ],
+  "volta": {
+    "node": "22.19.0",
+    "npm": "10.9.3"
+  }
+}

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="一个现代化的 Node.js/前端项目模板，针对ARM64架构优化" />
+    <meta name="keywords" content="nodejs, frontend, arm64, apple-silicon, vite, typescript, modern-web" />
+    <meta name="author" content="Cauchemar-Z" />
+    
+    <!-- ARM64 架构优化 -->
+    <meta name="theme-color" content="#4ecdc4" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Open Graph 标签 -->
+    <meta property="og:title" content="🚀 Node.js 前端项目 - ARM64优化版" />
+    <meta property="og:description" content="一个现代化的 Node.js/前端项目模板，针对ARM64架构优化" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://my-first-git-project.pages.dev" />
+    <meta property="og:image" content="https://my-first-git-project.pages.dev/og-image.png" />
+    
+    <!-- Twitter Card 标签 -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="🚀 Node.js 前端项目 - ARM64优化版" />
+    <meta name="twitter:description" content="一个现代化的 Node.js/前端项目模板，针对ARM64架构优化" />
+    <meta name="twitter:image" content="https://my-first-git-project.pages.dev/og-image.png" />
+    
+    <title>🚀 Node.js 前端项目 - ARM64优化版</title>
+    
+    <!-- ARM64 架构预加载优化 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- ARM64 架构性能优化 -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    
+    <!-- ARM64 架构关键CSS内联 -->
+    <style>
+      /* ARM64 架构关键渲染路径优化 */
+      body {
+        margin: 0;
+        font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      #root {
+        min-height: 100vh;
+      }
+      
+      /* ARM64 架构加载动画 */
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid #4ecdc4;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      .loading-text {
+        margin-top: 20px;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ARM64 架构加载状态 -->
+    <div id="loading" class="loading">
+      <div>
+        <div class="loading-spinner"></div>
+        <div class="loading-text">🚀 ARM64架构优化加载中...</div>
+      </div>
+    </div>
+    
+    <!-- React 应用根节点 -->
+    <div id="root"></div>
+    
+    <!-- ARM64 架构性能监控脚本 -->
+    <script>
+      // ARM64 架构检测
+      const isARM64 = navigator.userAgent.includes('Mac') && !navigator.userAgent.includes('Intel');
+      
+      // 性能监控
+      if (isARM64) {
+        console.log('🚀 ARM64架构检测到，启用优化模式');
+        
+        // ARM64 架构性能指标
+        if ('performance' in window) {
+          window.addEventListener('load', () => {
+            setTimeout(() => {
+              const perfData = performance.getEntriesByType('navigation')[0];
+              console.log('📊 ARM64架构性能指标:', {
+                loadTime: perfData.loadEventEnd - perfData.loadEventStart,
+                domContentLoaded: perfData.domContentLoadedEventEnd - perfData.domContentLoadedEventStart,
+                firstPaint: performance.getEntriesByType('paint')[0]?.startTime || 0
+              });
+            }, 0);
+          });
+        }
+      }
+      
+      // 隐藏加载动画
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const loading = document.getElementById('loading');
+          if (loading) {
+            loading.style.opacity = '0';
+            setTimeout(() => {
+              loading.style.display = 'none';
+            }, 300);
+          }
+        }, 500);
+      });
+    </script>
+    
+    <!-- Vite 开发服务器脚本 -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
