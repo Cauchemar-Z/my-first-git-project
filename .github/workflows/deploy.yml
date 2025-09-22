@@ -1,0 +1,24 @@
+name: Deploy to Cloudflare Pages
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 纯静态，无需构建；如果未来换 Next.js 再加构建步骤
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: yaxu-space-site   # ← 你稍后在 Cloudflare Pages 新建项目时用这个名字
+          directory: ./site              # ← 部署 ./site 目录
