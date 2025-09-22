@@ -1,4 +1,5 @@
-name: Deploy to Cloudflare Pages (ARM64 Optimized)
+name: Deploy to Cloudflare Pages (Static)
+
 on:
   push:
     branches: [ "main" ]
@@ -14,31 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # ARM64 架构优化的 Node.js 环境
-      - name: Setup Node.js (ARM64 Optimized)
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
-          cache-dependency-path: 'package-lock.json'
-
-      # ARM64 架构优化的依赖安装
-      - name: Install dependencies
-        run: |
-          npm ci
-          echo "✅ ARM64架构依赖安装完成"
-
-      # ARM64 架构优化的构建
-      - name: Build project (ARM64 Optimized)
-        run: |
-          npm run build
-          echo "✅ ARM64架构构建完成"
-
-      # ARM64 架构优化的部署
+      # 直接发布 ./site（纯静态），不做 node 安装与构建，避免依赖失败
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: my-first-git-project   # ← 项目名称
-          directory: ./dist                  # ← 部署构建后的 dist 目录
+          projectName: yaxu-space-site
+          directory: ./site
