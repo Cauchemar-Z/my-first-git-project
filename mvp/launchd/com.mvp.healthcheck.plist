@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.mvp.healthcheck</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>cd ~/mvp && jq -n '{"version":1,"trace_id":"'"$(uuidgen)'"","timestamp":"'"$(date -u +%FT%TZ)'"","context":{"user":"me","source":"cron"},"intent":"healthcheck","data":{}}' | ./bin/workflow-orchestrator.sh >/dev/null</string>
+  </array>
+  <key>StartInterval</key><integer>3600</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardErrorPath</key><string>/Users/you/.mvp/logs/health.err</string>
+  <key>StandardOutPath</key><string>/Users/you/.mvp/logs/health.out</string>
+</dict>
+</plist>
