@@ -1,0 +1,8 @@
+{
+  "intent": "content_generation",
+  "data": {
+    "prompt": "写一篇关于AI的文章"
+  },
+  "error_code": "1001",
+  "error_message": "处理器执行失败: content_generation"
+}
