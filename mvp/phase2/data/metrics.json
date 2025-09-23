@@ -1,0 +1,756 @@
+[
+  {
+    "timestamp": "2025-09-23T03:18:20.372Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7122,
+        "usage_percent": 44.46174305082547
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871367994574671
+      },
+      "network": {
+        "bytes_in": 1693895047,
+        "bytes_out": 12181259
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 30.095601771
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:18:50.391Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7124,
+        "usage_percent": 44.47361958462372
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871371025214102
+      },
+      "network": {
+        "bytes_in": 1693897183,
+        "bytes_out": 12186508
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 60.108682209
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:19:20.414Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7107,
+        "usage_percent": 44.37107169012343
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871377086492965
+      },
+      "network": {
+        "bytes_in": 1693946980,
+        "bytes_out": 12213379
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 90.131488406
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:19:50.414Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7107,
+        "usage_percent": 44.37002304340202
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871377086492965
+      },
+      "network": {
+        "bytes_in": 1693950282,
+        "bytes_out": 12219134
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 120.133494068
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:20:20.426Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7117,
+        "usage_percent": 44.434502623201965
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871380117132396
+      },
+      "network": {
+        "bytes_in": 1693955231,
+        "bytes_out": 12453331
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 150.143928496
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:20:50.427Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7118,
+        "usage_percent": 44.436014625451435
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871389209050689
+      },
+      "network": {
+        "bytes_in": 1693970706,
+        "bytes_out": 12490393
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 180.146172528
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:21:20.426Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7119,
+        "usage_percent": 44.44364779809795
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871398300968983
+      },
+      "network": {
+        "bytes_in": 1693976418,
+        "bytes_out": 12552977
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 210.146343827
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:21:50.440Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7119,
+        "usage_percent": 44.44511102608131
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871398300968983
+      },
+      "network": {
+        "bytes_in": 1693980208,
+        "bytes_out": 12585757
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 240.159737781
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:22:20.467Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7121,
+        "usage_percent": 44.45893853052404
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871404362247846
+      },
+      "network": {
+        "bytes_in": 1693982934,
+        "bytes_out": 12593466
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 270.186620291
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:22:50.467Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7122,
+        "usage_percent": 44.46040175850739
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871404362247846
+      },
+      "network": {
+        "bytes_in": 1693985094,
+        "bytes_out": 12598741
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 300.184614953
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:23:20.481Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7109,
+        "usage_percent": 44.38141183453915
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871404362247846
+      },
+      "network": {
+        "bytes_in": 1693999948,
+        "bytes_out": 12611167
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 330.199540354
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:23:50.486Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7109,
+        "usage_percent": 44.38294822392168
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871401331608414
+      },
+      "network": {
+        "bytes_in": 1694002042,
+        "bytes_out": 12616374
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 360.206018235
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:24:20.497Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7116,
+        "usage_percent": 44.425869578100155
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871407392887277
+      },
+      "network": {
+        "bytes_in": 1694065938,
+        "bytes_out": 12649012
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 390.215197706
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:24:50.499Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7116,
+        "usage_percent": 44.425869578100155
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871404362247846
+      },
+      "network": {
+        "bytes_in": 1694069240,
+        "bytes_out": 12654766
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 420.220296445
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:25:20.527Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7116,
+        "usage_percent": 44.426966999087675
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871407392887277
+      },
+      "network": {
+        "bytes_in": 1694072107,
+        "bytes_out": 12662405
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 450.24596552
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:25:50.527Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7116,
+        "usage_percent": 44.42689383768851
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871407392887277
+      },
+      "network": {
+        "bytes_in": 1694074201,
+        "bytes_out": 12667612
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 480.248500949
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:26:20.541Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7103,
+        "usage_percent": 44.3463919114708
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871410423526709
+      },
+      "network": {
+        "bytes_in": 1694076994,
+        "bytes_out": 12675384
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 510.25990529
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:26:50.554Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7103,
+        "usage_percent": 44.3463919114708
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871407392887277
+      },
+      "network": {
+        "bytes_in": 1694079154,
+        "bytes_out": 12680509
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 540.272172159
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:27:20.584Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7108,
+        "usage_percent": 44.37397375895709
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871410423526709
+      },
+      "network": {
+        "bytes_in": 1694081880,
+        "bytes_out": 12688349
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 570.303723231
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:27:50.584Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7108,
+        "usage_percent": 44.375510148339615
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871410423526709
+      },
+      "network": {
+        "bytes_in": 1694084115,
+        "bytes_out": 12693298
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 600.304276529
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:28:20.588Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7109,
+        "usage_percent": 44.38463093610254
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871410423526709
+      },
+      "network": {
+        "bytes_in": 1694086771,
+        "bytes_out": 12701133
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 630.305124571
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:28:50.604Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7094,
+        "usage_percent": 44.28791156640263
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871407392887277
+      },
+      "network": {
+        "bytes_in": 1694088866,
+        "bytes_out": 12706028
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 660.323799749
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:29:20.616Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7098,
+        "usage_percent": 44.31539586535669
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871419515445003
+      },
+      "network": {
+        "bytes_in": 1694151189,
+        "bytes_out": 12738585
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 690.336460252
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:29:50.634Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7100,
+        "usage_percent": 44.32761381901772
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871416484805572
+      },
+      "network": {
+        "bytes_in": 1694154493,
+        "bytes_out": 12744276
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 720.354048718
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:30:20.647Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7106,
+        "usage_percent": 44.36141438543327
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871428607363296
+      },
+      "network": {
+        "bytes_in": 1694157567,
+        "bytes_out": 12752252
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 750.366534572
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:30:50.659Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7106,
+        "usage_percent": 44.36295077481579
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871416484805572
+      },
+      "network": {
+        "bytes_in": 1694159661,
+        "bytes_out": 12757153
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 780.377767266
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:31:20.675Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7107,
+        "usage_percent": 44.367389233031986
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871422546084434
+      },
+      "network": {
+        "bytes_in": 1694162453,
+        "bytes_out": 12765230
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 810.394913943
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:31:50.685Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7107,
+        "usage_percent": 44.367389233031986
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871419515445003
+      },
+      "network": {
+        "bytes_in": 1694164478,
+        "bytes_out": 12770062
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 840.40251208
+    }
+  },
+  {
+    "timestamp": "2025-09-23T03:32:20.703Z",
+    "system": {
+      "cpu": {},
+      "memory": {
+        "total_mb": 16018,
+        "used_mb": 7109,
+        "usage_percent": 44.38119235034165
+      },
+      "disk": {
+        "total_gb": 126,
+        "used_gb": 6,
+        "usage_percent": 4.871422546084434
+      },
+      "network": {
+        "bytes_in": 1694167070,
+        "bytes_out": 12777939
+      }
+    },
+    "application": {
+      "error_count": 0,
+      "total_requests": 0,
+      "error_rate": 0,
+      "uptime_seconds": 870.422031225
+    }
+  }
+]
