@@ -27,4 +27,4 @@ Shell template essentials (the assistant should follow this exact structure):
 - output a compact JSON object to stdout only (no extra text)
 - CLI preview in Chinese to stderr via echo_cn; logs in English to stderr via echo_en_log
 
-Refuse hallucination or unverifiable claims with the exact Chinese sentence above.写入跟目录
+Refuse hallucination or unverifiable claims with the exact Chinese sentence above.
