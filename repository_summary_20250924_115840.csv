@@ -1,0 +1,9 @@
+name,language,description,category,size,stale_days,activity_level,private,archived,fork,action_needed
+my-website,HTML,个人网站,🌐 网站项目,1200,30,active,False,False,False,INTEGRATE
+python-scripts,Python,常用Python脚本,💻 后端开发,800,15,active,True,False,False,INTEGRATE
+ai-experiments,Python,AI实验代码,💻 后端开发,1500,45,recent,True,False,False,INTEGRATE
+test-repo,JavaScript,测试仓库,🎨 前端开发,100,200,inactive,True,False,False,INTEGRATE
+forked-project,Go,Fork的开源项目,🍴 Fork项目,5000,100,moderate,False,False,True,REVIEW
+old-project,Java,旧项目,🗄️ 已归档,2000,400,inactive,True,True,False,DELETE
+config-files,Shell,配置文件集合,🔧 工具脚本,300,60,recent,True,False,False,INTEGRATE
+empty-repo,Unknown,,📭 空仓库,0,300,inactive,True,False,False,DELETE
