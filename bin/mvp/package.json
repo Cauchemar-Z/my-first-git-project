@@ -1,0 +1,26 @@
+{
+  "name": "mvp-project",
+  "version": "1.0.0",
+  "description": "Minimum Viable Product - 基础项目模板",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha tests/",
+    "test:watch": "mocha tests/ --watch"
+  },
+  "keywords": [
+    "mvp",
+    "minimum-viable-product",
+    "template",
+    "nodejs"
+  ],
+  "author": "Cauchemar-Z",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MVP Project",
+  "version": "1.0.0",
+  "description": "Minimum Viable Product - 基础项目模板",
+  "author": "Cauchemar-Z",
+  "environment": "development",
+  "features": {
+    "logging": true,
+    "debug": true,
+    "autoUpdate": false
+  },
+  "settings": {
+    "maxRetries": 3,
+    "timeout": 30000,
+    "logLevel": "info"
+  }
+}
