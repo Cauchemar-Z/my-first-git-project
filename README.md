@@ -1,179 +1,196 @@
-# 🚀 Node.js 前端项目
+# AI工作流系统 - GitHub仓库整合工具包
 
-> 一个现代化的 Node.js/前端项目模板，包含完整的开发工具链和最佳实践。
-
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-Cauchemar--Z-black?style=flat-square&logo=github)](https://github.com/Cauchemar-Z)
-
-## 📋 目录
-
-- [快速开始](#-快速开始)
-- [项目结构](#-项目结构)
-- [开发指南](#-开发指南)
-- [部署说明](#-部署说明)
-- [贡献指南](#-贡献指南)
-- [许可证](#-许可证)
+🎯 **目标**: 将您分散的GitHub仓库整合到一个统一、安全的AI工作流系统中
 
 ## 🚀 快速开始
 
-### 前置要求
-
-- **Node.js** 18.0+ 
-- **npm** 8.0+ 或 **yarn** 1.22+
-- **Git** 2.30+
-
-### 安装步骤
-
+### 一键执行（推荐）
 ```bash
-# 1. 克隆项目
-git clone https://github.com/Cauchemar-Z/my-first-git-project.git
-cd my-first-git-project
-
-# 2. 安装依赖
-npm install
-# 或使用 yarn
-yarn install
-
-# 3. 启动开发服务器
-npm run dev
-# 或使用 yarn
-yarn dev
+chmod +x quick-setup.sh
+./quick-setup.sh
 ```
 
-### 环境配置
-
+### 分步执行
 ```bash
-# 复制环境变量模板
-cp .env.example .env.local
+# 1. GitHub仓库整合
+chmod +x setup-unified-repository.sh
+./setup-unified-repository.sh
 
-# 编辑环境变量
-vim .env.local
+# 2. 1Password安全配置
+chmod +x setup-1password-security.sh
+./setup-1password-security.sh
 ```
 
-## 📁 项目结构
+## 📋 执行前准备
 
-```
-my-first-git-project/
-├── src/                    # 📁 源代码目录
-│   ├── components/         # 🧩 组件
-│   ├── pages/             # 📄 页面
-│   ├── styles/            # 🎨 样式文件
-│   ├── utils/              # 🔧 工具函数
-│   └── types/              # 📝 TypeScript 类型定义
-├── public/                 # 🌐 静态资源
-├── docs/                   # 📚 文档
-├── tests/                  # 🧪 测试文件
-├── .github/                # 🤖 GitHub 工作流
-├── .editorconfig           # ⚙️ 编辑器配置
-├── .gitignore              # 🚫 Git 忽略文件
-├── package.json            # 📦 项目配置
-├── tsconfig.json           # 🔧 TypeScript 配置
-└── README.md               # 📖 项目说明
-```
+### 必需条件
+- ✅ GitHub Pro账户（用于私有仓库）
+- ✅ 1Password订阅（用于安全管理）
+- ✅ macOS/Linux系统
+- ✅ 网络连接
 
-## 🛠️ 开发指南
-
-### 可用脚本
-
+### 认证设置
 ```bash
-# 开发模式
-npm run dev          # 启动开发服务器
-npm run build        # 构建生产版本
-npm run start        # 启动生产服务器
+# GitHub CLI认证
+gh auth login
 
-# 代码质量
-npm run lint         # 代码检查
-npm run lint:fix     # 自动修复代码问题
-npm run type-check   # TypeScript 类型检查
-
-# 测试
-npm run test         # 运行测试
-npm run test:watch   # 监听模式测试
-npm run test:coverage # 测试覆盖率报告
+# 1Password CLI认证
+op signin
 ```
 
-### 代码规范
+## 🎯 功能特性
 
-- 使用 **ESLint** 进行代码检查
-- 使用 **Prettier** 进行代码格式化
-- 使用 **TypeScript** 进行类型检查
-- 遵循 **Conventional Commits** 提交规范
+### GitHub仓库整合
+- 📊 **智能分析**: 自动分类有用和无用仓库
+- 🏗️ **统一架构**: 创建结构化的统一仓库
+- 💾 **安全备份**: 完整备份所有代码
+- 🗑️ **智能清理**: 安全删除无用仓库
+- 🔒 **安全配置**: 自动配置分支保护和安全扫描
 
-### 分支策略
+### 1Password安全集成
+- 🔐 **密钥管理**: 统一管理所有API密钥
+- 🛡️ **安全存储**: 加密存储敏感信息
+- 🤖 **自动化访问**: 服务账户和脚本集成
+- 📋 **模板创建**: 预配置常用密钥模板
+- 🔍 **安全检查**: 自动化安全状态监控
 
-- `main` - 主分支，保持稳定
-- `develop` - 开发分支
-- `feature/*` - 功能分支
-- `bugfix/*` - 修复分支
-- `hotfix/*` - 紧急修复分支
+## 📁 生成的文件结构
 
-## 🚀 部署说明
+```
+workspace/
+├── 📋 repository-consolidation-plan.md    # 详细整合计划
+├── 🚀 quick-setup.sh                      # 一键执行脚本
+├── 📁 setup-unified-repository.sh         # GitHub整合脚本
+├── 🔒 setup-1password-security.sh         # 1Password配置脚本
+├── 🔑 get_secret.sh                       # 密钥获取工具
+├── ⚙️ load_env_from_1password.sh          # 环境变量加载
+├── 🔍 security_check.sh                   # 安全状态检查
+└── 📖 README.md                           # 使用说明
+```
 
-### 构建生产版本
+## 🎨 统一仓库结构
 
+执行后将创建 `ai-workflow-system` 仓库，结构如下：
+
+```
+ai-workflow-system/
+├── 📖 README.md                 # 项目概览
+├── 🔒 SECURITY.md              # 安全策略
+├── 📋 docs/                    # 文档目录
+├── 💻 src/                     # 源代码
+│   ├── core/                   # 核心功能
+│   ├── modules/                # 功能模块
+│   │   ├── password-manager/   # 密码管理
+│   │   ├── communication/      # 通信管理
+│   │   ├── content-publisher/  # 内容发布
+│   │   ├── business-intel/     # 商业情报
+│   │   └── data-visualization/ # 数据可视化
+│   ├── shared/                 # 共享组件
+│   └── utils/                  # 工具函数
+├── 🧪 tests/                   # 测试文件
+├── 🔧 scripts/                 # 脚本工具
+├── ⚙️ config/                  # 配置文件
+├── 🐳 docker/                  # 容器配置
+└── 📦 legacy/                  # 历史代码归档
+```
+
+## 🔒 安全特性
+
+### 多重安全保护
+- 🛡️ **私有仓库**: 所有代码私有存储
+- 🔐 **1Password集成**: 密钥统一管理
+- 🔍 **安全扫描**: 自动漏洞检测
+- 📊 **访问控制**: 分支保护和权限管理
+- 📝 **审计日志**: 完整操作记录
+
+### 密钥管理
+- GitHub Personal Access Token
+- SSH密钥对
+- API密钥（OpenAI, Anthropic, Supabase等）
+- 数据库凭据
+- 服务账户令牌
+
+## 📊 执行时间预估
+
+| 步骤 | 预计时间 | 说明 |
+|------|----------|------|
+| 环境检查 | 2-3分钟 | 检查工具和认证 |
+| 仓库分析 | 5-10分钟 | 分析现有仓库 |
+| 代码迁移 | 10-30分钟 | 取决于仓库数量 |
+| 安全配置 | 5-10分钟 | 1Password和GitHub设置 |
+| **总计** | **20-60分钟** | **完整流程** |
+
+## ⚠️ 重要提醒
+
+### 执行前
+- 🔄 **备份重要数据**: 虽然脚本会自动备份，但建议手动备份关键仓库
+- 👥 **通知协作者**: 如有团队成员，请提前通知仓库变更
+- 🔍 **检查依赖**: 确认没有外部系统依赖现有仓库结构
+
+### 执行中
+- ⏳ **耐心等待**: 大量仓库的处理可能需要较长时间
+- 🔍 **仔细确认**: 删除仓库前会要求确认，请仔细检查
+- 📝 **记录问题**: 如遇到问题，记录错误信息以便排查
+
+### 执行后
+- ✅ **验证完整性**: 检查代码是否完整迁移
+- 🔐 **完善密钥**: 在1Password中添加实际的API密钥
+- 🧪 **测试功能**: 运行安全检查确保一切正常
+
+## 🆘 故障排除
+
+### 常见问题
+
+**GitHub CLI认证失败**
 ```bash
-# 构建项目
-npm run build
-
-# 预览构建结果
-npm run preview
+gh auth logout
+gh auth login --web
 ```
 
-### 部署到生产环境
-
+**1Password CLI问题**
 ```bash
-# 使用 Docker 部署
-docker build -t my-app .
-docker run -p 3000:3000 my-app
-
-# 或使用 PM2 部署
-pm2 start ecosystem.config.js
+op signout --all
+op signin
 ```
 
-## 🤝 贡献指南
+**权限错误**
+```bash
+chmod +x *.sh
+```
 
-我们欢迎所有形式的贡献！请遵循以下步骤：
+**网络问题**
+- 检查网络连接
+- 尝试使用VPN
+- 检查防火墙设置
 
-1. **Fork** 这个项目
-2. 创建你的功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'feat: add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开一个 **Pull Request**
+### 获取帮助
+- 📖 查看详细计划: `repository-consolidation-plan.md`
+- 🔍 运行安全检查: `./security_check.sh`
+- 📧 如需技术支持，请提供错误日志
 
-### 贡献类型
+## 🎯 下一步计划
 
-- 🐛 **Bug 修复** - 修复已知问题
-- ✨ **新功能** - 添加新功能
-- 📚 **文档** - 改进文档
-- 🎨 **样式** - 代码格式调整
-- ♻️ **重构** - 代码重构
-- ⚡ **性能** - 性能优化
-- 🧪 **测试** - 添加或修复测试
+完成仓库整合后，您可以：
 
-## 📊 项目统计
+1. **开发环境配置**
+   - 配置Cursor开发环境
+   - 设置本地开发工具链
+   - 建立CI/CD流程
 
-- **创建时间**: 2025-09-22
-- **主要语言**: TypeScript, JavaScript
-- **框架**: Node.js
-- **开源协议**: MIT
+2. **功能模块开发**
+   - 从密码管理模块开始
+   - 逐步实现五大核心功能
+   - 建立自然语言交互界面
 
-## 📞 联系方式
+3. **系统集成测试**
+   - 验证各模块协同工作
+   - 测试安全性和稳定性
+   - 优化用户体验
 
-- **GitHub**: [@Cauchemar-Z](https://github.com/Cauchemar-Z)
-- **项目链接**: [my-first-git-project](https://github.com/Cauchemar-Z/my-first-git-project)
-- **问题反馈**: [Issues](https://github.com/Cauchemar-Z/my-first-git-project/issues)
+## 📄 许可证
 
-## 📜 许可证
-
-本项目基于 [MIT许可证](LICENSE) 开源。
+此工具包为个人使用设计，请遵守相关服务的使用条款。
 
 ---
 
-<div align="center">
-
-**⭐ 如果这个项目对您有帮助，请给我们一个Star！**
-
-*这个项目是学习现代前端开发的实践项目，欢迎提出建议和贡献代码！*
-
-</div>
+🚀 **准备好开始了吗？运行 `./quick-setup.sh` 开始您的AI工作流系统之旅！**
