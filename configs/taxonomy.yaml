@@ -1,0 +1,20 @@
+---
+labels:
+  - { name: "type:core", color: "22cc88" }
+  - { name: "type:template", color: "3366ff" }
+  - { name: "type:sandbox", color: "ffaa00" }
+  - { name: "type:archive-candidate", color: "aaaaaa" }
+  - { name: "needs:1password-ssh", color: "ff5500" }
+triage_issue:
+  title: "Repo Triage — 标注仓库角色与状态"
+  body: |
+    请选择本仓库的角色（保留一个）：
+    - [ ] type:core
+    - [ ] type:template
+    - [ ] type:sandbox
+    可选状态：
+    - [ ] type:archive-candidate
+    需要操作：
+    - [ ] needs:1password-ssh
+    说明：本 Issue 用于标注与追踪，按需勾选并提交。
+---
